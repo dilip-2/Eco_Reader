@@ -1,0 +1,98 @@
+/* Responsive Tips Page Styles */
+
+.tips-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.tips-banner {
+  background: linear-gradient(120deg, #a5d6a7, #81c784);
+  color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.tips-banner h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.tips-banner p {
+  margin-top: 8px;
+  font-size: 1rem;
+}
+
+.tip-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.tip-inputs input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.tip-inputs button {
+  padding: 12px;
+  background-color: #388e3c;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.tip-inputs button:hover {
+  background-color: #2e7d32;
+}
+
+.tip-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tip-item {
+  background-color: #f1f8e9;
+  border: 1px solid #dcedc8;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  word-break: break-word;
+}
+
+.tip-item button {
+  background: none;
+  border: none;
+  font-size: 18px;
+  color: #d32f2f;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .tips-banner h1 {
+    font-size: 1.5rem;
+  }
+
+  .tip-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .tip-inputs input,
+  .tip-inputs button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,67 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f9f4;
+  color: #2c3e50;
+}
+
+h1, h2 {
+  color: #2e7d32;
+}
+
+a {
+  text-decoration: none;
+  color: #388e3c;
+  margin: 0 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+form {
+  max-width: 400px;
+  margin: 20px auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px #c8e6c9;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #a5d6a7;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #2e7d32;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1b5e20;
+}
+
+.container {
+  padding: 20px;
+}
+
+.post {
+  background: #e8f5e9;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px #c8e6c9;
+}
